@@ -1,0 +1,15 @@
+name: C/C++ CI(Increment operator in C)
+
+ 
+#include <stdio.h>
+
+int main(){
+int a=0;
+int c,d;
+
+c=a++;
+d=++a;
+printf("%d %d %d",a,c,d);
+return 0;
+}
+
